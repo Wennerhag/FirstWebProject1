@@ -37,7 +37,7 @@ out.print("==== ==== ==== ==== ====<br><br>");
 
 
  
-<div style="width:700px; height:500px; float:left;">
+<div style="width:700px; height:100%; float:left;">
 <%
 for(Integer i = 0; i < blogposts.size(); i++) { %>
 
@@ -72,6 +72,7 @@ out.print("Kategori: " + blogposts.get(i).category + "<br><br>");
 </div>
 </div> 
 
+
 <div style="float:right; width:200px; height:20%; border:1px solid black;">
 <%
 out.print("Skribenter: <br>");
@@ -91,6 +92,7 @@ for(Integer i = 0; i < categories.size(); i++) {
 
 %>
 </div>
+
  
 </body>
 </html>
